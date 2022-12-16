@@ -4,7 +4,7 @@
 	> +++++ +++			cell 1: add 8
 	> +++++ +++++		cell 2: add 10
 	> +					cell 3: add 1
-	<<< -				decrease counter to cell 0
+	<<< -				decrease counter(cell 0) by 1(this will continue until it becomes zero)
 ]						end loop
 						print to standard out:
 > +++ .					putchar S (80 plus 3 = 83)
